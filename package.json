@@ -1,7 +1,7 @@
 {
   "name": "giphy",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@emotion/react": "^11.10.4",
