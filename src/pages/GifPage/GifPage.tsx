@@ -1,5 +1,5 @@
 import {useParams} from "react-router-dom";
-import React, {useEffect} from "react";
+import {useEffect} from "react";
 import gifsStore from "../../store/gifsStore";
 import Navbar from "../components/Navbar/Navbar";
 import {observer} from "mobx-react-lite";

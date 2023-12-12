@@ -2,7 +2,7 @@ import {Button, Input, Space} from 'antd';
 import {observer} from "mobx-react-lite";
 import Search from "antd/es/input/Search";
 import gifsStore from "../../../store/gifsStore";
-import {useEffect, useState} from "react";
+import {useEffect} from "react";
 import {Link} from "react-router-dom";
 
 const Navbar: React.FunctionComponent<object> = () => {

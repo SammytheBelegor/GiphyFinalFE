@@ -1,7 +1,5 @@
 import {API_KEY, BASE_URL} from "../utils/api-utils";
 
-
-
 export const fetchGif = (id:string)  => {
     return fetch(`${BASE_URL}/${id}?${API_KEY}`)
         .then(response => response.json());

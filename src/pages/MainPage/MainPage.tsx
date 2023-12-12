@@ -1,9 +1,5 @@
-import React from "react";
-
-
 import {observer} from "mobx-react-lite";
 import Navbar from "../components/Navbar/Navbar";
-
 import Trending from "../components/Trending/Trending";
 import Artists from "../components/Artists/Artists";
 import gifsStore from "../../store/gifsStore";

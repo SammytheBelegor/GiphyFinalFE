@@ -1,5 +1,4 @@
 import gifsStore from "../../store/gifsStore";
-import React from "react";
 import {Link} from "react-router-dom";
 
 

@@ -1,7 +1,7 @@
 import {Link, useParams} from "react-router-dom";
 import gifsStore from "../../store/gifsStore";
 import {observer} from "mobx-react-lite";
-import React, {useEffect} from "react";
+import {useEffect} from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Searched from "../components/Searched";
 

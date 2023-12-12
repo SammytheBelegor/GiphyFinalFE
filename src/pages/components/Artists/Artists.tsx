@@ -1,5 +1,4 @@
 import {Link} from "react-router-dom";
-import {RightOutlined} from "@ant-design/icons";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Navigation} from "swiper";
 import "swiper/css";
@@ -9,7 +8,7 @@ import "swiper/css/navigation";
 
 import "../../MainPage/styles.css";
 import gifsStore from "../../../store/gifsStore";
-import React, {useEffect} from "react";
+import {useEffect} from "react";
 import {observer} from "mobx-react-lite";
 
 

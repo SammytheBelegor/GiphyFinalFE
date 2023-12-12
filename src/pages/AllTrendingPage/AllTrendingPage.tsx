@@ -1,6 +1,3 @@
-import React, { useEffect } from "react";
-
-
 import gifsStore from "../../store/gifsStore";
 import {observer} from "mobx-react-lite";
 import Navbar from "../components/Navbar/Navbar";

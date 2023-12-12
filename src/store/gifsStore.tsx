@@ -1,4 +1,3 @@
-import React from "react";
 import {action, makeAutoObservable, observable} from "mobx";
 import {fetchArtists, fetchCategories, fetchCategoryGifs, fetchGif,  fetchTrendingGifs} from "./api";
 import SearchArtists from "../utils/search";
